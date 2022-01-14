@@ -326,7 +326,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'rules':
             reply(lang.rules(prefix))
             break
-            case 'scscsc': case 'source':
+            case 'sc': case 'source':
             reply(lang.source())
             break
             case 'donasi': case 'donate':
